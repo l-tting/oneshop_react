@@ -1,0 +1,50 @@
+{
+  "name": "vite-project",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "start": "react-scripts start",
+    "dev": "vite --open --port 3000",
+    "build": "vite build",
+    "lint": "eslint .",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.13.3",
+    "@emotion/styled": "^11.13.0",
+    "@fortawesome/free-brands-svg-icons": "^6.7.0",
+    "@fortawesome/free-regular-svg-icons": "^6.7.0",
+    "@fortawesome/free-solid-svg-icons": "^6.7.0",
+    "@fortawesome/react-fontawesome": "^0.2.2",
+    "@material-tailwind/react": "^3.0.0-beta.23",
+    "@mui/material": "^6.1.6",
+    "@mui/x-charts": "^7.22.2",
+    "axios": "^1.7.7",
+    "chart.js": "^4.4.6",
+    "iconoir-react": "^7.9.0",
+    "js-cookie": "^3.0.5",
+    "react": "^18.3.1",
+    "react-chartjs-2": "^5.2.0",
+    "react-data-table-component": "^7.6.2",
+    "react-dom": "^18.3.1",
+    "react-router-dom": "^6.27.0",
+    "react-scripts": "^3.4.4",
+    "recharts": "^2.13.3"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.13.0",
+    "@types/react": "^18.3.12",
+    "@types/react-dom": "^18.3.1",
+    "@vitejs/plugin-react": "^4.3.3",
+    "autoprefixer": "^10.4.20",
+    "eslint": "^9.13.0",
+    "eslint-plugin-react": "^7.37.2",
+    "eslint-plugin-react-hooks": "^5.0.0",
+    "eslint-plugin-react-refresh": "^0.4.14",
+    "globals": "^15.11.0",
+    "postcss": "^8.4.47",
+    "tailwindcss": "^3.4.14",
+    "vite": "^5.4.10"
+  }
+}
